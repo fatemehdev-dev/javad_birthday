@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="یک تبریک تولد ساخته شده با عشق و کدنویسی">
+
+    <title>Birthday gift 🎂</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<!-- ================= LOADER ================= -->
+
+<div class="loader" id="loader">
+
+    <div class="loader-content">
+
+        <div class="loader-logo">
+            &lt;Birthday /&gt;
+        </div>
+
+        <div class="loading-text">
+            Initializing happiness...
+        </div>
+
+        <div class="loading-bar">
+            <span></span>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= MUSIC ================= -->
+
+<audio id="music" loop>
+
+    <source src="music.mp3" type="audio/mpeg">
+
+</audio>
+
+<button
+    class="music-btn"
+    id="musicBtn"
+    aria-label="music"
+>
+    🔇
+</button>
+
+
+
+<!-- ================= FLOATING HEARTS ================= -->
+
+<div class="hearts" id="hearts"></div>
+
+
+
+<!-- ================= MAIN ================= -->
+
+<main class="container">
+
+
+    <!-- HERO -->
+
+    <section class="hero" id="hero">
+
+        <div class="code-symbol">
+            &lt;/&gt;
+        </div>
+
+        
+
+        <h1>
+
+            تولدت مبارک
+
+            <span>🎂</span>
+
+        </h1>
+
+        <p class="subtitle">
+
+            برای بهترین سرگروه دنیا ✨
+
+        </p>
+
+
+        <button
+            class="primary-btn"
+            id="startBtn"
+        >
+
+            &lt; Start Birthday party /&gt;
+
+        </button>
+
+
+        <div class="scroll-hint">
+
+            ↓ click to celebrate
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= BIRTHDAY ================= -->
+
+    <section
+        class="birthday-section hidden"
+        id="birthdaySection"
+    >
+
+
+        <!-- PERSON CARD -->
+
+        <div class="person-card">
+
+
+            <div class="image-wrapper">
+
+                <img
+                    src="person.jpg"
+                    alt="Birthday person"
+                >
+
+                <div class="image-glow"></div>
+
+            </div>
+
+
+            <div class="person-info">
+
+                <h2>
+                    اوس جواد استالین بزرگ🎉
+                </h2>
+
+                <p>
+
+                  تولدت مبارک جوانمرد❤️
+                </p>
+
+            </div>
+
+        </div>
+
+  <!-- ================= TERMINAL ================= -->
+
+        <div class="terminal">
+
+
+            <div class="terminal-header">
+
+                <div class="terminal-dots">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+                <span class="terminal-title">
+                    favorite poem 
+                </span>
+
+            </div>
+
+            <div class="terminal-body">
+
+                <p>
+                    <span class="purple">const</span>
+                    birthday =
+                    <span class="green">true</span>;
+                </p>
+
+
+                <p>
+                    <span class="purple">if</span>
+                    (birthday) {
+                </p>
+
+
+                <div
+                    class="poem"
+                    id="poem"
+                ></div>
+
+
+                <p>
+                    }
+                </p>
+
+
+            </div>
+
+        </div>
+
+
+
+   <!-- ================= MESSAGE ================= -->
+
+        <div class="message-card">
+
+            <span class="message-icon">
+                💌
+            </span>
+
+            <h2>
+                یک پیام کوچک
+            </h2>
+
+            <p>
+
+                امیدوارم سال جدید زندگیت پر باشه
+                از اتفاق‌های خوب،
+                موفقیت‌های بزرگ،
+                آدم‌های قشنگ و
+                کلی خاطره‌ای که ارزش موندن داشته باشه.
+
+            </p>
+
+            <p>
+
+                همیشه بدرخشی و هر چیزی که
+                براش تلاش می‌کنی به دست بیاری. ❤️
+
+            </p>
+
+        </div>
+
+
+
+        <!-- ================= STATS ================= -->
+
+        <div class="stats">
+
+
+            <div class="stat">
+
+                <span>🎂</span>
+
+                <strong>+1</strong>
+
+                <small>
+                    Level Up
+                </small>
+
+            </div>
+
+
+            <div class="stat">
+
+                <span>🚀</span>
+
+                <strong>100%</strong>
+
+                <small>
+                    Success
+                </small>
+
+            </div>
+
+
+            <div class="stat">
+
+                <span>❤️</span>
+
+                <strong>∞</strong>
+
+                <small>
+                    Happiness
+                </small>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- ================= SECRET ================= -->
+
+        <button
+            class="secret-btn"
+            id="secretBtn"
+        >
+
+            🔐 Open Secret
+
+        </button>
+
+
+        <div
+            class="secret hidden"
+            id="secret"
+        >
+
+            <div class="secret-terminal">
+
+                <p class="danger">
+                    ⚠ SYSTEM MESSAGE
+                </p>
+
+                <h2>
+                    404: Age Not Found 😂
+                </h2>
+
+                <p>
+
+                    اطلاعات سن به دلیل
+                    محرمانه بودن از سرور حذف شد.
+
+                </p>
+
+                <div class="system-status">
+
+                    Birthday Mode:
+                    <strong>OFF</strong> 🎉
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+ <!-- ================= GIFT ================= -->
+
+       
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            Made with
+            <span>Mahdi & Fatemeh </span>
+           
+
+        </p>
+
+    </footer>
+
+
+</main>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+          </html>
